@@ -25,6 +25,7 @@ dependencies = [
     "pandas>=3.0.3",
     "pdfminer>=20191125",
     "pymupdf>=1.27.2.3",
+    "pyopenssl>=26.3.0",
     "pypdf>=6.13.2",
     "python-docx>=1.2.0",
     "python-dotenv>=1.2.2",
