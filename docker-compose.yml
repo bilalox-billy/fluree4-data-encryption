@@ -1,0 +1,13 @@
+services:
+  fluree:
+    image: fluree/server:latest
+    container_name: fluree
+    ports:
+      - "8090:8090"
+    environment:
+      FLUREE_ENCRYPTION_KEY: "${FLUREE_ENCRYPTION_KEY}"
+    volumes:
+      - fluree_data:/var/lib/fluree
+
+volumes:
+  fluree_data:
